@@ -57,11 +57,6 @@ a{
     gap: 10px;
 }
 
-.nav-logo a{
-    color: #f0cfa1;
-    font-size: 24px;
-}
-
 .nav-list{
     display: flex;
     gap: 10px;
