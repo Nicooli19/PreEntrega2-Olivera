@@ -1,0 +1,239 @@
+
+/* MAIN */
+
+main{
+    background-color: #04293A; 
+} 
+
+
+h1{
+font-size: 35px;
+    color: #ECB365;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+p{
+    font-size: 25px;
+    color: #f0cfa1;
+    text-align: center;
+    background-color: #064663;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* CSS MENU NAVEGACION */
+
+.nav{
+    background-color: #041C32;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-sizing:content-box
+}
+
+.nav img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.nav-logo:hover{
+    border-radius: 10%;
+    border: 1px solid #f0cfa1;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 24px;
+    
+}
+
+
+
+.nav-link{
+    color: #f0cfa1;
+    border: 2px solid transparent;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    background-color: #ECB365;
+    color:#041C32;
+    border-radius: 10%;
+    border: 2px solid #04293A;
+    
+
+}
+
+
+
+/* CSS INDEX */
+
+.carrusel img{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+
+/* CSS CARRERA */
+
+.cards{
+    display: flex;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 20px;
+
+}
+
+.card{
+    width: 40%;
+    padding: 10px;
+    background-color: #064663;
+    border: 2px solid black;
+}
+
+.card img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__body{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card__body h2{
+    font-size: 35px;
+    color: #ECB365;
+}
+
+.card__body p{
+    font-size: 24px;
+}
+
+.c-row {
+    display: flex;
+    width: 40%;
+
+}
+
+
+
+
+
+
+/* CSS FOTOS */
+
+.galeria{
+    background-color: #064663;
+}
+
+
+.fotos{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fotos img{
+    
+    height: 450px;
+    width: 30%;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+    
+}
+
+
+
+
+/* CSS VIDEO */
+
+.video{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+/* CSS CONTACTO */
+
+.fondo-contacto{
+
+    background-image: url("../multimedia/imagen/penal.jpg");
+
+    background-repeat: none;
+
+    background-size: cover;
+
+    height: 500px;
+    width: 100%;
+}
+
+.texto-contacto{
+    color: #ECB365;
+
+    font-size: 20px;
+}
+    
+
+
+
+/* CCS FOOTER */
+
+#footer{
+    background-color: #ECB365;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+}
+
+.footer-edit{
+    color: #ffffff;
+    background-color:#041C32;
+    
+    
+}
