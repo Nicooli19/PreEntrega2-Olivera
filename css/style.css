@@ -10,7 +10,7 @@ h1{
 font-size: 35px;
     color: #ECB365;
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
 }
 
 
@@ -43,31 +43,69 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    box-sizing:content-box
 }
 
 .nav img{
     width: 100px;
     height: 100%;
     object-fit: cover;
+    border-radius: 10%;
 }
 
 .nav-logo{
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: 0.5s;
+}
+
+.nav-logo:hover{
+    border-radius: 10%;
+    border: 1px solid #f0cfa1;
 }
 
 .nav-list{
     display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
     font-size: 24px;
-
-
+    
 }
+
+
 
 .nav-link{
     color: #f0cfa1;
+    border: 2px solid transparent;
+    transition: 1s;
 }
+
+.nav-link:hover{
+    background-color: #ECB365;
+    color:#041C32;
+    border-radius: 10%;
+    border: 2px solid #04293A;
+    
+
+}
+
+
+
+/* CSS INDEX */
+
+.carrusel img{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
 
 /* CSS CARRERA */
 
@@ -91,7 +129,8 @@ a{
 .card img{
     width: 50%;
     height: 300px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card__body{
@@ -124,10 +163,27 @@ a{
 
 /* CSS FOTOS */
 
-.img-galeria{
-    height: 500px;
+.galeria{
+    background-color: #064663;
+}
+
+
+.fotos{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fotos img{
+    
+    height: 450px;
     width: 30%;
+    object-fit: cover;
+    object-position: center;
     padding: 10px;
+    
 }
 
 
